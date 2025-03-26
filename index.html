@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jishnu's Card</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+        body {
+            background: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            width: 380px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            padding: 20px;
+            position: relative;
+        }
+
+        .header {
+            width: 100%;
+            height: 120px;
+            background: linear-gradient(135deg, #2E2E2E, #4B4B4B);
+            border-radius: 10px 10px 0 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .profile-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 3px solid white;
+            background: white;
+            position: absolute;
+            top: 75px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .info {
+            padding-top: 50px;
+        }
+
+        .info h2 {
+            margin: 10px 0 5px;
+            font-size: 20px;
+            color: #333;
+        }
+
+        .info p {
+            font-size: 14px;
+            color: #777;
+            margin: 0;
+        }
+
+        .links {
+            margin-top: 15px;
+        }
+
+        .links a {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            background: #2E2E2E;
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: bold;
+            margin: 5px;
+            transition: 0.3s;
+        }
+
+        .links a:hover {
+            background: #555;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="header"></div>
+        <img src="/Users/Girsh/Desktop/digital-visiting-card/profile copy.png" alt="Jishnu" class="profile-img">  <!-- Image Updated -->
+        <div class="info">
+            <h2>Jishnu Ritesh Rahegaonkar</h2>
+            <p>Web Developer | Innovator</p>
+        </div>
+        <div class="links">
+            <a href="mailto:jishnurahegaonkar@gmail.com">📧 Email</a>
+            <a href="https://github.com/JishnuRahegaonkar">💻 GitHub</a>
+        </div>
+    </div>
+
+</body>
+</html>
